@@ -1,10 +1,13 @@
-baseurl = "https://www.example.org/"
-title = "Kiera"
-copyright = "Copyright &copy; 2019 - Author Name"
+baseurl = "/"
+title = "Test Blog Kiera"
+copyright = "Copyright &copy; 2019 - Test Blog Kiera"
 canonifyurls = true
 theme = "hugo-kiera"
 
 paginate = 3
+
+# Ignoring files as recommended
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
 summaryLength = 30
 enableEmoji = true
