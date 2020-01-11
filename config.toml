@@ -1,4 +1,4 @@
-baseurl = "https://test-blog-kieraa.netlify.com"
+baseurl = "https://test-blog-kiera.netlify.com/"
 title = "Test Blog Kiera"
 copyright = "Copyright &copy; 2019 - Test Blog Kiera"
 canonifyurls = true
@@ -30,8 +30,7 @@ pygmentsCodeFences = true
     tagline = "Let's go Mario"
     #description = "Kiera: A Hugo theme for creative and technical writing."
     description = "What does this even do?"
-    #images = [""] #This is used for opengraph/twitter cards.
-    images = ["pexels-photo-617278.jpg"] #This is used for opengraph/twitter cards.
+    images = [""] #This is used for opengraph/twitter cards.
     customCSS = []  #Optional Customised CSS
     favicon = ""
 
