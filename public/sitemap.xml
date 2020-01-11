@@ -33,12 +33,12 @@
   </url>
   
   <url>
-    <loc>/categories/gay/</loc>
+    <loc>/tags/gay/</loc>
     <lastmod>2020-01-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/gay/</loc>
+    <loc>/categories/gay/</loc>
     <lastmod>2020-01-09T00:00:00+00:00</lastmod>
   </url>
   
@@ -158,12 +158,12 @@
   </url>
   
   <url>
-    <loc>/categories/golang/</loc>
+    <loc>/tags/golang/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/golang/</loc>
+    <loc>/categories/golang/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url>
   

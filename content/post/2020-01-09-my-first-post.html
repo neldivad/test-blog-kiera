@@ -32,6 +32,28 @@ images: []
 
 ####Moreeee??
 
-K thx bye</code></pre>
-<p>r</p>
+K thx bye!
+
+</code></pre>
+<p><img src="/post/2020-01-09-my-first-post_files/pexels-photo-617278.jpeg" /></p>
+<p>rdfsdf</p>
 <p>Now I am back</p>
+<p>Moving into a RMD script</p>
+<p><img src="/post/2020-01-09-my-first-post_files/figure-html/unnamed-chunk-1-1.png" width="672" /><img src="/post/2020-01-09-my-first-post_files/figure-html/unnamed-chunk-1-2.png" width="672" /><img src="/post/2020-01-09-my-first-post_files/figure-html/unnamed-chunk-1-3.png" width="672" /></p>
+<p>#QUESTION 1</p>
+<p>#Trend and Order of Integration (Informal method)</p>
+<p>i)presence of trend</p>
+<p><img src="/post/2020-01-09-my-first-post_files/figure-html/lkse%20data%202-1.png" width="768" /></p>
+<p>After taking a long transformation of the series KLSE , the series seems to have a trend. The presence of trend could be a deterministic trend, a stochastic trend or presence of both. Besides, the slow decay of autocorrelation in the SACF from an initial value close to one and a significant spike at lag one (close to 1) in the SPACF further evidence that LKLSE is a non-stationary process. By visualising the overall series, a deterministic trend could be present in the series as the series increases in a deterministic way over the years. Further analysis which is by detrending the series allows us to determine whether there is a presence of deterministic trend.</p>
+<p><img src="/post/2020-01-09-my-first-post_files/figure-html/lkse%20data%204-1.png" width="768" /></p>
+<p>After detrending the series, there is a slow decay of autocorrelation in the SACF and significant spike in lag one and 2 respectively. Notably that the first significant spike in SPACF is relatively not so close to the value of one. However, if the series were to be partition into a few section for inspection, the series does not have a mean-reverting behaviour. This is an indication of a non-stationary series as the series LKLSE have violated the constant mean assumption in order for a series to be stationary. In addition the SACF and SPACF is not a white noise series which is an indication that the series is not a trend stationary process. From the above procedures that has been conducted, it is plausible to infer that the series is not a trend stationary series because detrending the series does not make LKLSE a stationary series.</p>
+<div style="page-break-after: always;"></div>
+<p>ii)order of integration</p>
+<p><img src="/post/2020-01-09-my-first-post_files/figure-html/first%20diff%202-1.png" width="768" /></p>
+<p>After taking a first differenced, the series is now stationary as it illustrates a mean reverting behaviour with a zero mean. The SACF shows a slight sinusoidal pattern but not slow decay of the autocorrelation and the SPACF has significant spikes at lag one and four but it does not shows a large and positive significant spike which is close to one at lag one. A stationary series allows for autocorrelation thus the differenced series need not be a white noise series after differencing. As the number of times taken to make the series stationary is once, it indicates that there is presence of one unit root and it also means that the order of integration is one. Thus, the tentative conclusion is, LKLSE is an I(1) process.</p>
+<p>#Conclusion
+A series is stationary after detrending is a trend stationary process while a series becomes stationary after differencing is a differenced stationary process. A differenced stationary process cannot be made stationary by detrending.The tentative conclusion is that LKLSE is an I(1) process.</p>
+<div style="page-break-after: always;"></div>
+<p>#Some comments</p>
+<p>Kuala Lumpur Stock Exchange (KLSE) is a company limited that incorporated under the Companies Act 1966 and is guarantee without a share capital. It was established in March 1960 to provide a market place for raising new fund for the listed companies and investors. In addition, it is also a platform for buyers and sellers who determine share prices competitively to trade outstanding shares (Abdullah, M.S, 1996). In a stock market, the random shock caused by the volatility and fluctuating of the market should not be conflated with pure deterministic trend in long-term. The reason behind that the real value of the stock market drifts upwards overtime in a predictable way is due to the improvement of technological progress (Greenwald, D., Lettau, M., &amp; Ludvigson, S. ,2015). The deterministic trend has drive output per capita and average standard of living upwards overtime. It is instead the shocks , the peak and trough around the trend that we have minimal knowledge in it. With the presence of random shocks, market can be persistently displace from its long-term trend for several decades (Greenwald, D., Lettau, M., &amp; Ludvigson, S. ,2015).This might be part of the reason whereby we sometimes observe the presence of “deterministic trend” during the data visualisation process but whether or not there is a deterministic trend in the series, further analysis need to be conducted. In addition, possibilities that contributes to the departure from random walk might be due to the non-linear serial dependencies in the underlying DGP. However, Annuar et al. (1991) uses the unit root methodology to account for cyclicity in price series and holding thin trading effect constant to conduct a weak-form test on stocks which were continuously traded on KLSE. It is evidence that approximately 87% of the total sample possess a unit root (Lim, K., Wong, H., &amp; Liew, V, 1993). Prices series on KLSE that possess unit roots also indicates that the current prices are the best estimates for future prices (Nassir, Ariff &amp; Mohamad, 1993).</p>
+<div style="page-break-after: always;"></div>
