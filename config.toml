@@ -1,4 +1,4 @@
-baseurl = "/"
+baseurl = "https://test-blog-kieraa.netlify.com"
 title = "Test Blog Kiera"
 copyright = "Copyright &copy; 2019 - Test Blog Kiera"
 canonifyurls = true
