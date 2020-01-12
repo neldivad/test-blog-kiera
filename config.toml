@@ -52,3 +52,7 @@ pygmentsCodeFences = true
     weight = 1
 
 disqusShortname = "test-blog-kiera"
+
+
+#disqusShortname = "" #Disqus shortname
+#googleAnalytics = "" #Google Analytics ID
