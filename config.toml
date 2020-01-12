@@ -24,6 +24,7 @@ pygmentsCodeFences = true
     instagram = "dl.eeee"
     #stackoverflow = "username"
     #youtube = "user/username" # or channel/channelname
+    reddit = "niaahmaa"
 
 [params]
     #tagline = "A Hugo theme for creative and technical writing"
@@ -38,7 +39,7 @@ pygmentsCodeFences = true
 [[menu.main]]
     identifier = "tags"
     name = "Tags"
-    url = "tags"
+    url = "/tags"
     weight = 1 #what's this do?
     
     #Issue: Tags link work as normal when accessed from homepage. However, it breaks when accessed from anywhere else. 
@@ -47,5 +48,5 @@ pygmentsCodeFences = true
 [[menu.main]]
     identifier = "categories"
     name = "Categories"
-    url = "categories"
+    url = "/categories"
     weight = 1

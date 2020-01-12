@@ -46,8 +46,26 @@ K thx bye!
 
 ![](/post/2020-01-09-my-first-post_files/pexels-photo-617278.jpeg)
 
+1. First item on our numbered list
+    * a bullet point
+    - a bullet point
+    + still a bullet point
+  
+2. Second item on our numbered list
+    * a bullet point:
+      * Now with a sub-list to our sub-list
+        * still with a sub-list to our sub-list
+      * How about now?
+      * Cash me ousside
+    
+    - a bullet point
+    + still a bullet point
+    
+[The text shown on the page](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)  
 
-rdfsdf
+rdfsdf!
+
+![__testjdkdd__](/post/2020-01-09-my-first-post_files/David Lim-IIUM-Director.jpg)
 
 Now I am back
 
